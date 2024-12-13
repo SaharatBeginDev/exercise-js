@@ -1,0 +1,10 @@
+function draw(n){
+    let temp = ""
+    for(let i = 1; i <= n**2; i++) {
+        temp = temp + i
+        if(i%n == 0) temp = temp + "\n";
+    }
+    console.log(temp)
+}
+
+draw(3)
